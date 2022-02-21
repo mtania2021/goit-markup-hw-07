@@ -2,7 +2,7 @@
   display: flex;
 }
 
-.feature-item-icons {
+.feature-list__link {
   font-family: inherit;
   width: 270px;
   height: 120px;
@@ -16,11 +16,11 @@
   }
 }
 
-.feature-item + .feature-item {
+.feature-list__item + .feature-list__item {
   margin-left: 30px;
 }
 
-.feature-heading {
+.feature-list__heading {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -30,7 +30,7 @@
   margin-bottom: 10px;
 }
 
-.feature-text {
+.feature-list__text {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;

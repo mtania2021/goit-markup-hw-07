@@ -2,11 +2,11 @@
   margin-left: 93px;
 }
 
-.footer-form-subscription {
+.subscription-form {
   display: flex;
 }
 
-.footer-subscription-email {
+.subscription-form__email {
   padding: 16px;
   border-color: transparent;
   width: 358px;
@@ -41,7 +41,7 @@
   border: none;
 }
 
-.btm-submit-icons {
+.btn-subscription__icons {
   fill: #ffffff;
   margin-left: 10px;
 }
